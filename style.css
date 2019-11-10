@@ -1,0 +1,235 @@
+body {
+    background-image: url('zdjecia/background.jpg') !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    line-height: 1.7;
+    font-family: 'Sunshiney', cursive;
+    font-family: 'Play', sans-serif;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+}
+
+.navbar {
+    height: 10%;
+}
+
+#omnie {
+
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+}
+
+.jumbotron {
+    opacity: .8;
+    height: 50%;
+    background-color: #BBBBBB;
+    z-index: -1;
+    height: 60%;
+
+}
+
+.jumbotron h1 {
+    opacity: 1;
+    color: black;
+    font-size: 3rem;
+    padding-top: 7rem;
+
+}
+
+
+.card {
+    width: 22rem;
+    height: 32rem;
+    box-shadow: 20px 20px;
+}
+
+.card-body p {
+    font-size: 1.2rem;
+}
+
+.card-body hr {
+    background-color: brown !important;
+    height: .1rem;
+}
+
+#zdjecia .row {
+
+    margin: 3rem;
+}
+
+.foto {
+    height: 233px;
+}
+
+hr {
+    background-color: brown;
+    height: .3rem;
+}
+
+.navbar-nav li {
+    margin-right: 2rem;
+}
+
+.guzik {
+    margin-left: 5rem;
+}
+
+
+.cennik-row {
+    background-color: black !important;
+    border-radius: 2rem;
+    height: 100%;
+    padding: 3rem;
+    opacity: .8;
+
+}
+
+.cennik-row h1 {
+    font-size: 2rem;
+    color: white;
+
+}
+
+.cennik-row p {
+    font-size: 1.6rem;
+    color: white;
+
+}
+
+.zdjecie {
+    width: 100%;
+    height: 100%;
+}
+
+
+.fa {
+    font-size: 1.6rem;
+    padding-right: 1rem;
+
+}
+
+span {
+
+    font-size: 2rem;
+}
+
+.phone {
+    margin-top: -3rem;
+}
+
+.envelope {
+
+    margin-top: -3rem;
+}
+
+
+
+
+
+
+
+/* Media queries */
+
+
+
+
+
+@media (min-width: 576px) {
+
+    .jumbotron h1 {
+        opacity: 1;
+        color: black;
+        font-size: 2rem;
+        padding-top: 2rem;
+
+    }
+
+    hr {
+        background-color: brown !important;
+        height: .3rem;
+    }
+
+    .card {
+        width: 100%;
+        height: 100%;
+        //box-shadow: 20px 20px;
+        //box-shadow: 20px 20px;
+        margin-bottom: 3rem;
+
+    }
+
+    /*.card{
+    
+    width: auto;
+    height: 32rem;
+    box-shadow: 20px 20px;
+    margin-bottom: 4rem;
+    
+}*/
+
+    .guzik {
+        margin-left: 7rem;
+        margin-top: 3rem;
+    }
+}
+
+
+
+
+
+
+
+    @media (min-width: 768px) {
+
+
+        .guzik {
+            margin-left: 12rem;
+            margin-bottom: 2rem;
+        }
+
+        .card{
+            
+            margin-top: -2rem;
+        }
+        
+        #cennik{
+            
+            margin-top: 3rem;
+        }
+
+    }
+
+
+
+
+
+
+
+
+    @media (min-width: 992px) { 
+    
+        
+         .guzik {
+            margin-left: 2rem;
+            margin-bottom: 1rem;
+        }
+    }
+
+    @media (min-width: 1200px) { 
+
+    .guzik {
+            margin-left: 4rem;
+            margin-bottom: 1rem;
+        }
+
+
+
+}
+
